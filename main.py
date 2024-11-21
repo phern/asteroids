@@ -30,7 +30,6 @@ def main():
     screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
     asteroid_field = AsteroidField()
 
-
     while True:
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
@@ -52,7 +51,6 @@ def main():
         
         clock.tick(60)
         dt = clock.tick(60) / 1000
-
 
 if __name__ == '__main__':
     main()
