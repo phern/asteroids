@@ -33,8 +33,6 @@ def main():
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 return
-
-        
            
         for object in updatable:
             object.update(dt)
@@ -45,30 +43,13 @@ def main():
             object.draw(screen)  
 
         pygame.display.flip()
+        for object in asteroids:
+            if player.collides(object):
+                print('Game over!')
+                exit()
         
         clock.tick(60)
         dt = clock.tick(60) / 1000
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 if __name__ == '__main__':
