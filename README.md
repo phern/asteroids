@@ -9,7 +9,7 @@ A Python implementation of the classic arcade game. Navigate your spaceship, des
 
 ## Prerequisites 🛠️
 To run this game, you'll need:
-- Python 3.7+
+- Python 3.12.3+
 - Required dependencies listed in `requirements.txt` (if applicable).
 
 ## Installation 📥
