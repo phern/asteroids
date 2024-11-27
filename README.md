@@ -31,4 +31,3 @@ To run this game, you'll need:
 2. Controls:
    - ```Arrow Keys```: Move your spaceship.
    - ```Spacebar```: Fire lasers.
-   - ```Esc```: Pause or quit the game.
