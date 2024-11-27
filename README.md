@@ -29,5 +29,5 @@ To run this game, you'll need:
    ```bash
    python asteroids.py
 2. Controls:
-   - ```Arrow Keys```: Move your spaceship.
+   - ```W A S D```: Move your spaceship.
    - ```Spacebar```: Fire lasers.
