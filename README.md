@@ -2,7 +2,7 @@
 
 A Python implementation of the classic arcade game. Navigate your spaceship, destroy asteroids, and survive as long as possible in the vastness of space.
 
-![Gameplay Preview](/screenshot.png) <!-- Replace with an actual screenshot link -->
+![Gameplay Preview](/screenshot.png) 
 
 ## Features ✨
 - **Classic Gameplay**: Recreates the original Asteroids arcade experience.
@@ -27,7 +27,7 @@ To run this game, you'll need:
 ## How to Play 🚀
 1. Run the game:
    ```bash
-   python asteroids.py
+   python main.py
 2. Controls:
    - ```W A S D```: Move your spaceship.
    - ```Spacebar```: Fire lasers.
